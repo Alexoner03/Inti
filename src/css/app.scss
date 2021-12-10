@@ -1,0 +1,53 @@
+@font-face {
+    font-family: basic;
+    src: url('../assets/basictitlefont.ttf');
+}
+
+@font-face {
+    font-family: butler;
+    src: url('../assets/Butler.woff');
+}
+
+@font-face {
+    font-family: quick;
+    src: url('../assets/Quicksand_Book.otf');
+}
+
+* {
+    font-family: quick;
+}
+// app global css in SCSS form
+.page_layout {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.w-auto{
+    width: auto;
+}
+.chip_main{
+    background-color: $primary;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border : 3px solid black;
+}
+.border {
+    border : 3px solid black;
+
+}
+
+.round_border{
+    border : 5px solid $warning;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.q-field__prefix {
+    font-size: 2rem;
+  }
+
+  .mb {
+      margin-bottom: 2rem !important;
+  }
